@@ -58,8 +58,8 @@ def load_example():
     -------
     NDVI_SERIES float32 with time index
     '''
-    ndvi = "\\GreenBrown\\data\\time_series.npy"
-    ndvi_date = "\\GreenBrown\\data\\time_series_date.txt"
+    # ndvi = "\\GreenBrown\\data\\time_series.npy"
+    # ndvi_date = "\\GreenBrown\\data\\time_series_date.txt"
     save = "\\GreenBrown\\data\\time_series.csv"
 
     ndvi_d = pd.read_csv(save)

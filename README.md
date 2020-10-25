@@ -55,28 +55,28 @@ The package has been developed at the Max Planck Institute for Biogeochemistry, 
 
   <img src="https://github.com/px39n/GreenBrown/blob/main/data/timespace.JPG?raw=true" width="400"/>
   
-### Methods  
+### Other Methods 
 #### 1. BFAST Season Decomposition by OLS-MoSUM  
- bst=gb.bfast.BFAST(Yt,Tt,max_iter=1) 
- bst.plot() 
- bst.summary() 
- yt,tt,st,rt=bst.composition  
+     bst=gb.bfast.BFAST(Yt,Tt,max_iter=1) 
+     bst.plot() 
+     bst.summary() 
+     yt,tt,st,rt=bst.composition  
 
 
 Output: See Example.juynb
 #### 2. Annual Trend and anomaly Detection  
- trd=gb.TrendAAT(Yt,Tt,0.15,0.05) 
- trd.summary() 
- trd.plot() 
- ATs,Am,An=trd.values  
+     trd=gb.TrendAAT(Yt,Tt,0.15,0.05) 
+     trd.summary() 
+     trd.plot() 
+     ATs,Am,An=trd.values  
   
   Output: See Example.juynb
   
 #### 3. Seasonal component extraction  
-  
- trd2=gb.TrendSST(Yt,Tt) 
- trd2.summary() 
- trd2.plot() 
- STs,St_bp=trd2.values
+      
+     trd2=gb.TrendSST(Yt,Tt) 
+     trd2.summary() 
+     trd2.plot() 
+     STs,St_bp=trd2.values
 
 Output: See Example.juynb

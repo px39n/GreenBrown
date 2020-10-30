@@ -16,6 +16,9 @@ In the Future
 3. Design for Anomaly Classification
   
 The package has been developed at the Max Planck Institute for Biogeochemistry, Jena, Germany in order to distribute the code of the following publications:  
+- Verbesselt, J., Hyndman, R., Newnham, G., & Culvenor, D. (2010). Detecting trend and seasonal changes in satellite image time series. Remote Sensing of Environment, 114, 106-115. DOI: 10.1016/j.rse.2009.08.014. DownLoad Paper
+- Verbesselt, J., Hyndman, R., Zeileis, A., & Culvenor, D. (2010). Phenological change detection while accounting for abrupt and gradual trends in satellite image time series. Remote Sensing of Environment, 114, 2970-2980. DOI: 10.1016/j.rse.2010.08.003. DownLoad Paper
+- Verbesselt, J., Zeileis, A., & Herold, M. (2013). Near real-time disturbance detection using satellite image time series, Remote Sensing of Environment. DOI: 10.1016/j.rse.2012.02.022. DownLoad Paper
 - Forkel, M., Carvalhais, N., Verbesselt, J., Mahecha, M., Neigh, C., Reichstein, M., 2013.  [Trend Change Detection in NDVI Time Series: Effects of Inter-Annual Variability and Methodology.](http://www.mdpi.com/2072-4292/5/5/2113)  Remote Sensing 5, 2113–2144. doi:10.3390/rs5052113  
 - Forkel, M., Migliavacca, M., Thonicke, K., Reichstein, M., Schaphoff, S., Weber, U., Carvalhais, N., 2015.  [Codominant water control on global interannual variability and trends in land surface phenology and greenness.](http://onlinelibrary.wiley.com/doi/10.1111/gcb.12950/abstract)  Glob Change Biol 21, 3414–3435. doi:10.1111/gcb.12950  
    

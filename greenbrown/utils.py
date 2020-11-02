@@ -58,9 +58,9 @@ def load_example():
     -------
     NDVI_SERIES float32 with time index
     '''
-    # ndvi = "\\GreenBrown\\data\\time_series.npy"
-    # ndvi_date = "\\GreenBrown\\data\\time_series_date.txt"
-    save = "\\GreenBrown\\data\\time_series.csv"
+    # ndvi = "\\greenBrown\\data\\time_series.npy"
+    # ndvi_date = "\\greenBrown\\data\\time_series_date.txt"
+    save = ".\\data\\time_series.csv"
 
     ndvi_d = pd.read_csv(save)
     ndvi_date = pd.to_datetime(ndvi_d["time"], format="%Y-%m-%d")
@@ -72,7 +72,7 @@ def load_example():
 
 def load_tif_sample():
 
-    path="\\GreenBrown\\data\\clip.csv" #20,14
+    path=".\\data\\clip.csv" #20,14
     ndvi = pd.read_csv(path,header=0)
     nd=ndvi.iloc[:,:-4].values
 

@@ -45,7 +45,7 @@ class TrendAAT(object):
         plt.axhline(self.mean,label="Mean of NDVI")
         plt.legend(loc="lower right")
         plt.subplot(312)
-        plt.plot(self.ts_y,label='Y={} * Ti + {} (In Yrs with offset)'.format(str(int(self.mk[7])), str(int(self.mk[8])))
+        plt.plot(self.ts_y,label='Y={} * Ti + {} (In Yrs with offset)'.format(str(int(self.mk[7])), str(int(self.mk[8]))))
         plt.legend(loc="lower right")
         plt.subplot(313)
         plt.plot(self.anomaly,label='Annual Anomalies')
